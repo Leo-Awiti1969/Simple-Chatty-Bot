@@ -1,0 +1,26 @@
+type: remote_edu
+files:
+- name: tests.py
+  visible: false
+  learner_created: false
+- name: main.js
+  visible: true
+  text: |2
+
+    console.log("Hello, World!");
+  learner_created: false
+feedback_link: https://hyperskill.org/projects/221/stages/1107/implement#comment
+check_profile: hyperskill_node_javascript
+status: Failed
+feedback:
+  message: |-
+    Wrong answer in test #1
+
+    You should output exactly 2 lines!
+    Lines found: 4Your output:
+    Hello! My name is text.
+    I was created in 2017.
+    Please, remind me your name.
+    What a great name you have, text
+  time: Thu, 17 Feb 2022 22:44:02 UTC
+record: 1
